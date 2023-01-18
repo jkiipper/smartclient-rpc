@@ -1,30 +1,28 @@
 {
     "name": "smartclient-rpc",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "RPC functionality for SmartClient server side implementation",
     "keywords": [],
     "license": "LGPL-3.0",
     "author": {
-        "name": "Aleksandras Novikovas",
-        "email": "Aleksandras.Novikovas@gmail.com",
+        "name": "SmartClient Server (forked by jkiipper)",
         "url": "http://www.smartclient.com/"
     },
     "contributors": [],
     "repository": {
         "type": "git",
-        "url": "git://github.com/isomorphic-software/smartclient-rpc.git"
+        "url": "git://github.com/jkiipper/smartclient-rpc.git"
     },
     "dependencies": {
         "xml2js": "^0.4.17",
+        "knex": "^2.4.1",
+        "pg": "^8.8.0",
         "generic-pool": "git://github.com/Aleksandras-Novikovas/node-pool.git",
-        "knex": "^0.12.7",
-        "mysql": "^2.12.0",
-        "pg": "^6.1.4",
-        "srv-core": "^0.0.1",
-        "srv-config": "^0.0.1",
-        "srv-log": "^0.0.1",
-        "srv-server": "^0.0.1",
-        "srv-util": "^0.0.1"
+        "srv-core": "^1.0.0",
+        "srv-config": "^1.0.0",
+        "srv-log": "^1.0.0",
+        "srv-server": "^1.0.5",
+        "srv-util": "^1.0.2"
     },
     "devDependencies": {
         "jsdoc": "^3.4.3"
