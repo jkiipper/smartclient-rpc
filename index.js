@@ -43,7 +43,7 @@ const JSONDataSource = require("./lib/datasource/JSONDataSource");
 const RESTDSRequest = require("./lib/datasource/RESTDSRequest");
 const SQLDataSource = require("./lib/datasource/SQLDataSource");
 const ConnectionPool = require("./lib/db/ConnectionPool");
-const MysqlFactory = require("./lib/db/MysqlFactory");
+// const MysqlFactory = require("./lib/db/MysqlFactory");
 const PostgreSQLFactory = require("./lib/db/PostgreSQLFactory");
 const DataSourceLoader = require("./lib/router/DataSourceLoader");
 const IDACall = require("./lib/router/IDACall");
@@ -66,7 +66,7 @@ module.exports = {
     RESTDSRequest: RESTDSRequest,
     SQLDataSource: SQLDataSource,
     ConnectionPool: ConnectionPool,
-    MysqlFactory: MysqlFactory,
+    // MysqlFactory: MysqlFactory,
     PostgreSQLFactory: PostgreSQLFactory,
     DataSourceLoader: DataSourceLoader,
     IDACall: IDACall,
